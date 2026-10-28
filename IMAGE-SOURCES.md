@@ -23,3 +23,16 @@ JPEG-originalen är oförändrade. WebP-versionerna är storleksanpassade kopior
 ## Kontakt
 
 Adress och telefon från Wolt-menyn ovan. Instagramkontot https://www.instagram.com/buuuuuuunzy/ länkas från Bunzys verksamhetslistning på https://thatsup.se/stockholm/cafe/bunzy/ . Leveranstider används inte som butikstider.
+
+## Logotyp
+
+- Lokal fil: dist/assets/bunzy-logo.jpg (918 × 174).
+- Originalet är oförändrat. CSS blandar den vita bakgrunden med sidans färg.
+- Källa: https://brandzoo.se/varum%C3%A4rken/bunzy/handelsbolaget-bunzy/2026-05257
+- Direkt bild: https://brandzoo.se/images/38/3892088.jpg
+- BrandZoo återger ett figurvarumärke för Handelsbolaget Bunzy baserat på PRV-data. Bilden har inte genererats eller ritats om.
+- Bunzys eget Instagram har även ett rött spiralmärke som profilbild. Det används inte på sidan.
+
+## Bun of the month
+
+Funktionen är en separat demosida som länkar till Bunzys Instagram för aktuell smak. Ingen aktuell oktober 2026-smak kunde säkert verifieras. Biscoff-bilden är uttryckligen märkt som exempel från ordinarie sortiment. Den presenteras inte som månadens smak. Inga priser, tillgänglighetsuppgifter eller datum är påhittade.
