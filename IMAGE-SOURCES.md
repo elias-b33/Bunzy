@@ -10,7 +10,24 @@ Källsida: https://wolt.com/sv/swe/boras/restaurant/cafe-bunzy-2
 - biscoff.jpg – Biscoff Bun: https://imageproxy.wolt.com/assets/69e767351597c65508568630
 - pepperoni.jpg – Pepperoni & Hot Honey: https://imageproxy.wolt.com/assets/69f51ea80bde8999368226d4
 
-JPEG-originalen är oförändrade. WebP-versionerna är storleksanpassade kopior, och bildytorna beskärs med CSS. Produktnamnen följer Wolt-menyn. Inga priser eller påståenden om dagens tillgänglighet visas.
+JPEG-originalen är oförändrade. WebP-versionerna är storleksanpassade kopior, och bildytorna beskärs med CSS. Produktnamnen följer Wolt-menyn. För bullarna visas inga priser eller påståenden om dagens tillgänglighet.
+
+## Drycker på den egna menysidan
+
+Källsida från användaren: https://semeny.no/se/sted/cafebunzy
+
+Kontrollerad 28 oktober 2026. Endast de sex dryckerna har lagts till, enligt användarens önskemål. Namn och priser följer denna meny; de är inte separat bekräftade som butikens aktuella priser. Beskrivningen av Karak Chai är en kort parafras av källans beskrivning. Adresser och öppettider har inte hämtats från denna sida.
+
+| Lokal fil i dist/assets/drinks | Produkt | Pris i källan | Bildoriginal länkat av menyn |
+| --- | --- | --- | --- |
+| karak-chai.webp | Karak Chai | 45 kr | https://imageproxy.wolt.com/assets/69e7686b1597c6550856870d |
+| coconut-cloud-matcha.webp | Coconut Cloud Matcha | 85 kr | https://imageproxy.wolt.com/assets/69f2048b771ef982fba12e52 |
+| coca-cola-zero.webp | Coca-Cola Zero Sugar 33cl | 20 kr | https://imageproxy.wolt.com/assets/668efaf9aa348539d9b06e8e |
+| blabar-matcha.webp | Blåbär Matcha | 80 kr | https://imageproxy.wolt.com/assets/69f320900a322a9880aab622 |
+| rosa-mjolk-matcha.webp | Rosa Mjölk Matcha | 80 kr | https://imageproxy.wolt.com/assets/69f20492771ef982fba12e5e |
+| mango-matcha.webp | Mango Matcha | 80 kr | https://imageproxy.wolt.com/assets/69f2048c771ef982fba12e54 |
+
+Bilderna är storleksanpassade till 240 pixlars bredd och sparade som WebP. CSS beskär bildytorna till små kvadrater. Menysidan laddar bilderna lokalt och länkar inte besökaren vidare till Wolt eller SEMENY. Tillgänglighet på respektive café har inte verifierats.
 
 ## Interiör
 

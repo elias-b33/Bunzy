@@ -5,8 +5,79 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="noindex, nofollow">
   <meta name="theme-color" content="#fff7ed">
+  <meta name="description" content="Drycker hos Bunzy – chai, matcha och kalla drycker.">
   <title>Bunzy · Meny</title>
-  <style>html, body { margin: 0; min-height: 100%; background: #fff7ed; }</style>
+  <link rel="stylesheet" href="assets/fonts.css">
+  <link rel="stylesheet" href="styles.css">
+  <script src="order-demo.js" defer></script>
 </head>
-<body></body>
+<body>
+  <header class="site-header">
+    <div class="brand-row">
+      <div class="brand"><a href="index.html" aria-label="Bunzy, startsida"><img src="assets/bunzy-logo.jpg" alt="Bunzy" width="918" height="174" decoding="async"></a></div>
+      <a class="tiktok-top" href="https://www.tiktok.com/@buuuuuuuuunzy" target="_blank" rel="noopener noreferrer">TikTok <span aria-hidden="true">↗</span></a>
+    </div>
+    <nav aria-label="Navigation">
+      <a href="meny.html" aria-current="page">Meny <span aria-hidden="true">→</span></a>
+      <a href="index.html#hitta">Hitta hit <span aria-hidden="true">↓</span></a>
+      <button type="button" class="order-button" data-order-open aria-haspopup="dialog" aria-controls="order-demo">Beställ online <span class="demo-label">Demo</span></button>
+    </nav>
+  </header>
+  <main class="menu-page">
+    <a class="text-link back-link" href="index.html"><span aria-hidden="true">←</span> Till startsidan</a>
+    <div class="menu-sheet">
+      <h1>Meny</h1>
+      <section class="drinks-section" aria-labelledby="drinks-title">
+        <h2 id="drinks-title">Dryck</h2>
+        <ul class="drinks-list">
+          <li class="drink-item">
+            <img src="assets/drinks/karak-chai.webp" alt="" width="240" height="134" decoding="async">
+            <div><h3>Karak Chai</h3><p>Te med mjölk och kardemumma.</p></div>
+            <span class="drink-price">45 kr</span>
+          </li>
+          <li class="drink-item">
+            <img src="assets/drinks/coconut-cloud-matcha.webp" alt="" width="240" height="134" decoding="async">
+            <div><h3>Coconut Cloud Matcha</h3></div>
+            <span class="drink-price">85 kr</span>
+          </li>
+          <li class="drink-item">
+            <img src="assets/drinks/coca-cola-zero.webp" alt="" width="240" height="134" decoding="async">
+            <div><h3>Coca-Cola Zero Sugar</h3><p>33 cl</p></div>
+            <span class="drink-price">20 kr</span>
+          </li>
+          <li class="drink-item">
+            <img src="assets/drinks/blabar-matcha.webp" alt="" width="240" height="137" decoding="async">
+            <div><h3>Blåbär Matcha</h3></div>
+            <span class="drink-price">80 kr</span>
+          </li>
+          <li class="drink-item">
+            <img src="assets/drinks/rosa-mjolk-matcha.webp" alt="" width="240" height="134" decoding="async">
+            <div><h3>Rosa Mjölk Matcha</h3></div>
+            <span class="drink-price">80 kr</span>
+          </li>
+          <li class="drink-item">
+            <img src="assets/drinks/mango-matcha.webp" alt="" width="240" height="134" decoding="async">
+            <div><h3>Mango Matcha</h3></div>
+            <span class="drink-price">80 kr</span>
+          </li>
+        </ul>
+      </section>
+    </div>
+  </main>
+  <dialog id="order-demo" class="order-dialog" aria-labelledby="order-title" aria-describedby="order-description">
+    <div class="dialog-heading"><h2 id="order-title">Beställ online</h2><button type="button" class="close-dialog" data-order-close aria-label="Stäng beställningsdemo">Stäng <span aria-hidden="true">×</span></button></div>
+    <p id="order-description">Välj en bulle och antal.</p>
+    <form id="order-form" method="dialog">
+      <label for="order-bun">Bulle</label>
+      <select id="order-bun" name="bun" autofocus><option>Classic Bun</option><option>Biscoff Bun</option><option>Pepperoni &amp; Hot Honey</option></select>
+      <label for="order-quantity">Antal</label>
+      <select id="order-quantity" name="quantity"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option></select>
+      <button type="submit" class="primary-link">Visa mitt val <span aria-hidden="true">→</span></button>
+    </form>
+    <div id="order-result" class="order-result" hidden tabindex="-1" role="status">
+      <strong>Ditt val</strong><p id="order-summary"></p>
+    </div>
+    <p class="order-note">Demo – inget skickas eller betalas.</p>
+  </dialog>
+</body>
 </html>

@@ -95,6 +95,33 @@ figcaption { margin-top: 12px; font-size: 14px; line-height: 1.5; }
 }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
 
+.menu-page { padding-bottom: 64px; }
+.menu-sheet { display: grid; grid-template-columns: 160px minmax(0, 1fr); gap: 40px; padding-top: 30px; border-top: 1px solid var(--line); }
+.menu-sheet h1 { margin: -6px 0 0; color: var(--red); font-size: 34px; font-weight: 400; line-height: 1.2; letter-spacing: -1.1px; }
+.drinks-section h2 { margin: 0 0 18px; color: var(--ink); font-size: 18px; letter-spacing: 0; }
+.drinks-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0 30px; margin: 0; padding: 0; list-style: none; }
+.drink-item { display: grid; grid-template-columns: 80px minmax(0, 1fr) auto; align-items: center; gap: 14px; min-width: 0; padding: 16px 0; border-top: 1px solid var(--line); }
+.drink-item img { display: block; width: 80px; height: 80px; object-fit: cover; }
+.drink-item h3 { margin: 0; font-size: 16px; font-weight: 400; line-height: 1.4; }
+.drink-item p { margin: 5px 0 0; color: #79675b; font-size: 12px; line-height: 1.5; }
+.drink-price { font-size: 14px; white-space: nowrap; font-variant-numeric: tabular-nums; }
+@media (max-width: 900px) {
+  .menu-sheet { grid-template-columns: 120px minmax(0, 1fr); gap: 28px; }
+  .drinks-list { column-gap: 24px; }
+  .drink-item { grid-template-columns: 64px minmax(0, 1fr) auto; gap: 10px; }
+  .drink-item img { width: 64px; height: 64px; }
+  .drink-item h3 { font-size: 14px; }
+}
+@media (max-width: 700px) {
+  .menu-page { padding-bottom: 36px; }
+  .menu-sheet { grid-template-columns: 1fr; gap: 26px; padding-top: 26px; }
+  .menu-sheet h1 { margin: 0; font-size: 28px; }
+  .drinks-section h2 { margin-bottom: 14px; }
+  .drinks-list { grid-template-columns: 1fr; }
+  .drink-item { gap: 14px; padding-block: 14px; }
+  .drink-item h3 { font-size: 16px; }
+}
+
 .month-teaser { display: flex; align-items: center; gap: 24px; margin-top: 40px; padding: 22px 26px; background: var(--blush); border-left: 3px solid var(--red); color: var(--red); }
 .month-teaser:hover { text-decoration: none; background: #f7d9cf; }
 .teaser-photo { display: block; width: 92px; height: 92px; flex-shrink: 0; object-fit: cover; }

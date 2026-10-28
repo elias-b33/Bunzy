@@ -14,7 +14,7 @@ Python 3 behövs. Från projektmappen:
 
 - Bunzys röda ordlogotyp, varm bakgrund och röda accenter.
 - Kompakt menysektion med tre produkter från Bunzys Wolt-meny.
-- Meny och Hela menyn öppnar en avsiktligt tom sida inom samma demo.
+- Meny och Hela menyn öppnar en egen enkel menysida med sex drycker, små bilder och priser från Bunzys meny på SEMENY.
 - Bun of the month visar en liten produktbild, smaknamn och kort beskrivning direkt under menyn. Rutan öppnar en egen enkel demosida utan extern smaklänk.
 - Biscoff Bun är tydligt märkt Demoexempel, med en bild från ordinarie sortiment. Bunzy fyller på aktuell månadssmak senare.
 - Hitta hit i navigationen går till två platsrutor, Borås och Stockholm, med varsin Google Maps-länk.
@@ -26,12 +26,12 @@ Python 3 behövs. Från projektmappen:
 
 ## Före en färdig webbplats
 
-Bekräfta innehåll, bildrättigheter, öppettider och beställningslösning med Bunzy. Bygg innehållet på menysidan och koppla aktuell månadssmak när underlag finns. Demon innehåller inga priser, ingen egen checkout och ingen betalning. Bilderna är referensmaterial med dokumenterade källor i IMAGE-SOURCES.md. noindex markerar att detta är en konceptdemo.
+Bekräfta innehåll, priser, bildrättigheter, öppettider och beställningslösning med Bunzy. Menysidan visar tills vidare bara drycker; lägg till resten av sortimentet och aktuell månadssmak när underlag finns. Dryckernas namn och priser följer den länkade SEMENY-menyn, kontrollerad 28 oktober 2026, och uppdateras manuellt i HTML. Ingen egen checkout eller betalning finns. Bilderna är referensmaterial med dokumenterade källor i IMAGE-SOURCES.md. noindex markerar att detta är en konceptdemo.
 
 ## Filer
 
 - dist/index.html – startsidan.
-- dist/meny.html – avsiktligt tom menydemo.
+- dist/meny.html – egen menysida med sex drycker och priser.
 - dist/manadens-bulle.html – separat Bun of the month-vy.
 - dist/styles.css – layout, färger och responsiva brytpunkter.
 - dist/order-demo.js – öppna, sammanfatta och stänga den lokala beställningsdemon.
@@ -49,6 +49,6 @@ Inställningarna finns redan i vercel.json:
 - Build Command och Install Command: tomma; sidan behöver inget byggsteg.
 - Inga miljövariabler eller hemligheter krävs.
 
-Konfigurationen är förberedd, men inget Vercel-projekt har skapats eller publicerats i detta arbete. Alla sidor använder relativa länkar och fungerar på en Vercel-domän. Menysidan är avsiktligt tom även efter publicering.
+Konfigurationen är förberedd, men inget Vercel-projekt har skapats eller publicerats i detta arbete. Alla sidor använder relativa länkar och fungerar på en Vercel-domän.
 
 Vercels dokumentation: https://vercel.com/docs/project-configuration/vercel-json
