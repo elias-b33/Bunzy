@@ -15,8 +15,8 @@ Python 3 behövs. Från projektmappen:
 - Bunzys röda ordlogotyp, varm bakgrund och röda accenter.
 - Kompakt menysektion med tre produkter från Bunzys Wolt-meny.
 - Meny och Hela menyn öppnar en avsiktligt tom sida inom samma demo.
-- Bun of the month öppnar en egen enkel demosida utan extern smaklänk. Bunzy fyller på innehållet senare.
-- Månadsbilden är uttryckligen ett exempel från ordinarie sortiment.
+- Bun of the month visar en liten produktbild, smaknamn och kort beskrivning direkt under menyn. Rutan öppnar en egen enkel demosida utan extern smaklänk.
+- Biscoff Bun är tydligt märkt Demoexempel, med en bild från ordinarie sortiment. Bunzy fyller på aktuell månadssmak senare.
 - Hitta hit i navigationen går till två platsrutor, Borås och Stockholm, med varsin Google Maps-länk.
 - Riktiga bilder från respektive lokal. Boråstelefonen visas enbart vid Borås.
 - TikTok syns vid loggan och tillsammans med Instagram under platsrutorna.

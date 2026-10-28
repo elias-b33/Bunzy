@@ -95,10 +95,15 @@ figcaption { margin-top: 12px; font-size: 14px; line-height: 1.5; }
 }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
 
-.month-teaser { display: flex; align-items: center; justify-content: space-between; gap: 30px; margin-top: 40px; padding: 26px 30px; background: var(--blush); border-left: 3px solid var(--red); color: var(--red); }
+.month-teaser { display: flex; align-items: center; gap: 24px; margin-top: 40px; padding: 22px 26px; background: var(--blush); border-left: 3px solid var(--red); color: var(--red); }
 .month-teaser:hover { text-decoration: none; background: #f7d9cf; }
+.teaser-photo { display: block; width: 92px; height: 92px; flex-shrink: 0; object-fit: cover; }
+.teaser-copy { flex: 1; min-width: 0; }
 .month-teaser h2 { margin: 0; font-size: 28px; letter-spacing: -.6px; }
 .month-teaser p { margin: 7px 0 0; color: #75483b; font-size: 14px; line-height: 1.5; }
+.month-teaser .teaser-flavor { display: flex; flex-wrap: wrap; align-items: baseline; gap: 2px 12px; }
+.teaser-flavor strong { font-weight: 600; }
+.example-label { font-size: 11px; }
 .teaser-action { display: inline-flex; gap: 20px; align-items: center; flex-shrink: 0; font-size: 14px; }
 .teaser-action > span { font-size: 24px; }
 .month-teaser:hover .teaser-action { text-decoration: underline; text-underline-offset: 5px; }
@@ -134,11 +139,11 @@ figcaption { margin-top: 12px; font-size: 14px; line-height: 1.5; }
   .dialog-heading h2 { font-size: 24px; }
 }
 @media (max-width: 700px) {
-  .month-teaser { margin-top: 28px; padding: 20px 18px; gap: 16px; }
-  .month-teaser h2 { font-size: 23px; }
-  .month-teaser p { font-size: 13px; }
-  .teaser-action { font-size: 0; gap: 0; }
-  .teaser-action > span { font-size: 28px; }
+  .month-teaser { margin-top: 28px; padding: 18px 14px; gap: 14px; }
+  .teaser-photo { width: 64px; height: 64px; }
+  .month-teaser h2 { font-size: 20px; }
+  .month-teaser p { font-size: 12px; }
+  .teaser-action { display: none; }
   .back-link { margin-top: -6px; margin-bottom: 20px; }
   .month-layout { grid-template-columns: 1fr; gap: 30px; padding-top: 28px; padding-bottom: 0; }
   .month-copy h1 { font-size: 44px; letter-spacing: -1.4px; }
