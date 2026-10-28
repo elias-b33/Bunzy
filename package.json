@@ -1,0 +1,1 @@
+{"name":"bunzy-demo","version":"0.4.0","private":true,"description":"An early local website concept for Bunzy in Borås","scripts":{"start":"python -m http.server 4317 --bind 127.0.0.1 --directory dist"}}
