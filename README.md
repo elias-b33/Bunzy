@@ -1,6 +1,6 @@
 # Bunzy – lokal konceptdemo
 
-En tidig webbskiss för Café Bunzy i Borås. Avsedd som underlag för en presentation och gemensam designgenomgång.
+En tidig webbskiss för Bunzy i Borås och Stockholm. Avsedd som underlag för en presentation och gemensam designgenomgång.
 
 ## Kör lokalt
 
@@ -15,13 +15,14 @@ Python 3 behövs. Från projektmappen:
 - Bunzys röda ordlogotyp, varm bakgrund och röda accenter.
 - Kompakt menysektion med tre produkter från Bunzys Wolt-meny.
 - Meny och Hela menyn öppnar en avsiktligt tom sida inom samma demo.
-- Bun of the month öppnar en egen vy med en länk till Instagram för aktuell smak.
+- Bun of the month öppnar en egen enkel demosida utan extern smaklänk. Bunzy fyller på innehållet senare.
 - Månadsbilden är uttryckligen ett exempel från ordinarie sortiment.
-- Hitta hit och Visa på karta öppnar Google Maps med adressen i Borås.
-- Kontaktuppgifter och en mindre interiörbild från lokalen.
-- Beställ online är avstängd och märkt Demo.
+- Hitta hit i navigationen går till två platsrutor, Borås och Stockholm, med varsin Google Maps-länk.
+- Riktiga bilder från respektive lokal. Boråstelefonen visas enbart vid Borås.
+- TikTok syns vid loggan och tillsammans med Instagram under platsrutorna.
+- Beställ online öppnar en liten dialog: välj bulle och antal och visa en lokal sammanfattning. Inget skickas, sparas eller betalas.
 - Mobilanpassning, lokala typsnitt, responsiva WebP-bilder och tydliga fokusmarkeringar.
-- Statisk HTML/CSS utan JavaScript, spårning eller externa bibliotek under körning.
+- Statisk HTML/CSS med lite JavaScript för demodialogen. Ingen serverfunktion, spårning eller externa bibliotek under körning.
 
 ## Före en färdig webbplats
 
@@ -33,6 +34,7 @@ Bekräfta innehåll, bildrättigheter, öppettider och beställningslösning med
 - dist/meny.html – avsiktligt tom menydemo.
 - dist/manadens-bulle.html – separat Bun of the month-vy.
 - dist/styles.css – layout, färger och responsiva brytpunkter.
+- dist/order-demo.js – öppna, sammanfatta och stänga den lokala beställningsdemon.
 - dist/assets/ – foton, logotyp, typsnitt och typsnittslicens.
 - scripts/optimize-images.cjs – skapar WebP-versioner från de ursprungliga produktbilderna. Kräver Sharp (npm install --no-save sharp).
 

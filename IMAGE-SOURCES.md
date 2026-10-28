@@ -1,6 +1,6 @@
 # Bild- och faktakällor
 
-Kontrollerade 28 oktober 2026. Bilderna används som referensmaterial i en tidig konceptdemo. Fotograf och fri återanvändningslicens har inte kunnat fastställas. Bildval och rättigheter behöver bekräftas med Bunzy före en färdig publicering.
+Kontrollerade 28 oktober 2026. Bilderna används som referensmaterial i en tidig konceptdemo. Fri återanvändningslicens har inte kunnat fastställas. Bildval och rättigheter behöver bekräftas med Bunzy före en färdig publicering. Kända fotografuppgifter anges nedan.
 
 ## Produkter
 
@@ -18,11 +18,22 @@ JPEG-originalen är oförändrade. WebP-versionerna är storleksanpassade kopior
 - Källsida: https://www.pi.fyi/thing/cmpglk84q0m67k8473rv1fxxt
 - Original: https://files.pi.fyi/etc/images/jnrf5dmcjzlv9x7bjxqtvop6/original.jpg
 - Källsidan anger Café Bunzy, Stora Brogatan 14, 503 30 Borås.
-- Bilden visar sittplatser vid fönstret. Upplösning 400 × 533 pixlar; därför används den i en mindre porträttyta. Fotograf och fotograferingsdatum är inte angivna.
+- Bilden visar sittplatser vid fönstret. Upplösning 400 × 533 pixlar; bildytan beskärs med CSS. Fotograf och fotograferingsdatum är inte angivna.
+
+## Stockholm
+
+- Adress Hagagatan 37, 113 47 Stockholm: https://thatsup.se/stockholm/cafe/bunzy/
+- Lokala filer: dist/assets/photos/stockholm-400.webp och stockholm-800.webp.
+- Bildkälla: https://thatsup.se/stockholm/cafe/bunzy/photos/a84ad93b
+- Original: https://static.thatsup.co/content/img/place/stockholm/bu/b037991d-a063-11f1-b4db-86d7fdd99ed5/user-photo/a84ad93b.jpg?1788533869
+- Foto krediteras Parosh av källan. Visar bullar och serveringsdisken inne i Stockholmslokalen. Original 1800 × 2400; WebP-versionerna är storleksanpassade kopior.
+- Ingen Stockholmstelefon har lagts till utan verifierat underlag.
 
 ## Kontakt
 
 Adress och telefon från Wolt-menyn ovan. Instagramkontot https://www.instagram.com/buuuuuuunzy/ länkas från Bunzys verksamhetslistning på https://thatsup.se/stockholm/cafe/bunzy/ . Leveranstider används inte som butikstider.
+
+TikTok: https://www.tiktok.com/@buuuuuuuuunzy (nio u). Verifierat direkt i TikToks publika profil den 28 oktober 2026. Profilens bio anger både Stockholm, Hagagatan 37 och Borås, Stora Brogatan 14. Inga påståenden om följarsiffror eller räckvidd visas.
 
 ## Logotyp
 
@@ -35,4 +46,4 @@ Adress och telefon från Wolt-menyn ovan. Instagramkontot https://www.instagram.
 
 ## Bun of the month
 
-Funktionen är en separat demosida som länkar till Bunzys Instagram för aktuell smak. Ingen aktuell oktober 2026-smak kunde säkert verifieras. Biscoff-bilden är uttryckligen märkt som exempel från ordinarie sortiment. Den presenteras inte som månadens smak. Inga priser, tillgänglighetsuppgifter eller datum är påhittade.
+Funktionen är en separat demosida utan extern smaklänk. Texten är en platshållare som Bunzy kan uppdatera senare. Ingen aktuell oktober 2026-smak kunde säkert verifieras. Biscoff-bilden är uttryckligen märkt som exempel från ordinarie sortiment. Den presenteras inte som månadens smak. Inga priser, tillgänglighetsuppgifter eller datum är påhittade.

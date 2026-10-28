@@ -5,19 +5,23 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#fff7ed">
   <meta name="robots" content="noindex, nofollow">
-  <meta name="description" content="Ett tidigt webbkoncept för Bunzy i Borås.">
-  <title>Bunzy · Borås</title>
+  <meta name="description" content="Ett tidigt webbkoncept för Bunzy i Borås och Stockholm.">
+  <title>Bunzy · Borås &amp; Stockholm</title>
   <link rel="preload" href="assets/dm-sans-600-normal.ttf" as="font" type="font/ttf" crossorigin>
   <link rel="stylesheet" href="assets/fonts.css">
   <link rel="stylesheet" href="styles.css">
+  <script src="order-demo.js" defer></script>
 </head>
 <body>
   <header class="site-header">
-    <h1 class="brand"><a href="index.html" aria-label="Bunzy, startsida"><img src="assets/bunzy-logo.jpg" alt="Bunzy" width="918" height="174" decoding="async"></a></h1>
+    <div class="brand-row">
+      <h1 class="brand"><a href="index.html" aria-label="Bunzy, startsida"><img src="assets/bunzy-logo.jpg" alt="Bunzy" width="918" height="174" decoding="async"></a></h1>
+      <a class="tiktok-top" href="https://www.tiktok.com/@buuuuuuuuunzy" target="_blank" rel="noopener noreferrer">TikTok <span aria-hidden="true">↗</span></a>
+    </div>
     <nav aria-label="Navigation">
       <a href="meny.html" aria-label="Meny, öppna demosidan">Meny <span aria-hidden="true">→</span></a>
-      <a href="https://www.google.com/maps/search/?api=1&query=Bunzy%2C%20Stora%20Brogatan%2014%2C%20Bor%C3%A5s" target="_blank" rel="noopener noreferrer">Hitta hit <span aria-hidden="true">↗</span></a>
-      <button type="button" class="order-button" disabled aria-label="Beställ online, inte aktiverat i demon">Beställ online <span class="demo-label">Demo</span></button>
+      <a href="#hitta">Hitta hit <span aria-hidden="true">↓</span></a>
+      <button type="button" class="order-button" data-order-open aria-haspopup="dialog" aria-controls="order-demo">Beställ online <span class="demo-label">Demo</span></button>
     </nav>
   </header>
   <main>
@@ -47,22 +51,49 @@
     </a>
     <section id="hitta" class="visit-section" aria-labelledby="visit-title">
       <div class="section-heading"><h2 id="visit-title">Hitta hit</h2></div>
-      <div class="visit-content">
-        <div class="visit-details">
-          <p class="address">Stora Brogatan 14<br>503 30 Borås</p>
-          <a class="text-link" href="https://www.google.com/maps/search/?api=1&query=Bunzy%2C%20Stora%20Brogatan%2014%2C%20Bor%C3%A5s" target="_blank" rel="noopener noreferrer">Visa på karta <span aria-hidden="true">↗</span></a>
-          <div class="visit-contact">
-            <a href="tel:+46731556788">073-155 67 88</a>
+      <div class="visit-locations">
+        <div class="locations-grid">
+          <article class="location" aria-labelledby="boras-title">
+            <div class="location-photo"><img src="assets/photos/interior.webp" alt="Sittplatser vid fönstret inne på Bunzy i Borås" width="400" height="533" loading="lazy" decoding="async"></div>
+            <h3 id="boras-title">Borås</h3>
+            <p class="address">Stora Brogatan 14<br>503 30 Borås</p>
+            <div class="location-links">
+              <a class="text-link" href="https://www.google.com/maps/search/?api=1&query=Bunzy%2C%20Stora%20Brogatan%2014%2C%20Bor%C3%A5s" target="_blank" rel="noopener noreferrer" aria-label="Hitta till Bunzy i Borås på Google Maps">Hitta hit <span aria-hidden="true">↗</span></a>
+              <a class="location-phone" href="tel:+46731556788">073-155 67 88</a>
+            </div>
+          </article>
+          <article class="location" aria-labelledby="stockholm-title">
+            <picture class="location-photo stockholm-photo"><source type="image/webp" srcset="assets/photos/stockholm-400.webp 400w, assets/photos/stockholm-800.webp 800w" sizes="(max-width:700px) 42vw, 448px"><img src="assets/photos/stockholm-800.webp" alt="Bullar vid serveringsdisken inne på Bunzy på Hagagatan i Stockholm" width="800" height="1067" loading="lazy" decoding="async"></picture>
+            <h3 id="stockholm-title">Stockholm</h3>
+            <p class="address">Hagagatan 37<br>113 47 Stockholm</p>
+            <div class="location-links">
+              <a class="text-link" href="https://www.google.com/maps/search/?api=1&query=Bunzy%2C%20Hagagatan%2037%2C%20Stockholm" target="_blank" rel="noopener noreferrer" aria-label="Hitta till Bunzy i Stockholm på Google Maps">Hitta hit <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+        </div>
+        <div class="social-links">
+            <a href="https://www.tiktok.com/@buuuuuuuuunzy" target="_blank" rel="noopener noreferrer">TikTok <span aria-hidden="true">↗</span></a>
             <a href="https://www.instagram.com/buuuuuuunzy/" target="_blank" rel="noopener noreferrer">Instagram <span aria-hidden="true">↗</span></a>
             <p>Aktuella öppettider på Instagram.</p>
           </div>
-        </div>
-        <figure class="interior">
-          <img src="assets/photos/interior.webp" alt="Sittplatser, träbord och soffor vid fönstret inne på Café Bunzy i Borås" width="400" height="533" loading="lazy" decoding="async">
-          <figcaption>Hos oss i Borås.</figcaption>
-        </figure>
       </div>
     </section>
   </main>
+  <dialog id="order-demo" class="order-dialog" aria-labelledby="order-title" aria-describedby="order-description">
+    <div class="dialog-heading"><h2 id="order-title">Beställ online</h2><button type="button" class="close-dialog" data-order-close aria-label="Stäng beställningsdemo">Stäng <span aria-hidden="true">×</span></button></div>
+    <p id="order-description">Välj en bulle och antal.</p>
+    <form id="order-form" method="dialog">
+      <label for="order-bun">Bulle</label>
+      <select id="order-bun" name="bun" autofocus><option>Classic Bun</option><option>Biscoff Bun</option><option>Pepperoni &amp; Hot Honey</option></select>
+      <label for="order-quantity">Antal</label>
+      <select id="order-quantity" name="quantity"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option></select>
+      <button type="submit" class="primary-link">Visa mitt val <span aria-hidden="true">→</span></button>
+    </form>
+    <div id="order-result" class="order-result" hidden tabindex="-1" role="status">
+      <strong>Ditt val</strong><p id="order-summary"></p>
+
+    </div>
+    <p class="order-note">Demo – inget skickas eller betalas.</p>
+  </dialog>
 </body>
 </html>
